@@ -22,6 +22,6 @@ export default class calculator {
     adminName:string = 'Hello';
 
     /** @type {string} sumPoints - value: 'Members have <this.members és a this.average szorzata> points' (template string) */
-   
+   sumPoints:string = `Members have ${this.members*this.average}.`;
 
 }
